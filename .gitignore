@@ -1,5 +1,23 @@
-﻿# Python
+# Python
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
 .env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# Datos (no subas brutos al repo)
+data/
+*.csv
+*.parquet
+*.xlsx
+*.zip
+
+# Sistemas/IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
